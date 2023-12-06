@@ -192,3 +192,45 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+#conditionButtons {
+  margin-bottom: 20px;
+}
+
+.conditionButton {
+  font-size: 16px;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.modelButton {
+  font-size: 14px;
+  margin: 5px;
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.conditionButton:hover,
+.selectedCondition {
+  background-color: #ddd;
+}
+
+
+.modelButton:hover,
+.selectedModel {
+  background-color: #ddd;
+}
+
+.hidden {
+  display: none;
+}
+
+#imageContainer {
+  margin-top: 20px;
+}
+
