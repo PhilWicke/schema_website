@@ -10,7 +10,7 @@ body {
 
 .link-block a {
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .dnerf {
@@ -77,46 +77,7 @@ body {
 }
 
 
-.publication-image {
-  position: relative;
-  width: 80%; /* Adjust the width to your preference */
-  margin: 0 auto; /* Center the container horizontally */
-  height: 0;
-  padding-bottom: 56.25%; /* You can adjust this value based on the aspect ratio of your image */
 
-  overflow: hidden;
-  border-radius: 10px !important;
-}
-
-.publication-image img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain; /* This property ensures the entire image fits within the container */
-  border-radius: 10px !important;
-}
-
-
-
-.publication-video {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-
-    overflow: hidden;
-    border-radius: 10px !important;
-}
-
-.publication-video iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
 .results-carousel {
   overflow: hidden;
@@ -175,7 +136,7 @@ body {
 
 
 .column.is-four-fifths .title {
-  margin-bottom: 1px; /* Adjust the margin-bottom value */
+  margin-bottom: 15px; /* Adjust the margin-bottom value */
 }
 
 .interpolation-panel .slider {
@@ -231,6 +192,6 @@ body {
 }
 
 #imageContainer {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
